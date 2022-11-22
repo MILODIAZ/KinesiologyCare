@@ -6,9 +6,10 @@ html {
 
 body{
 	font-family: 'Jost', sans-serif;
+	background-color: #77aeb1;
 }
 
-h1,a,span,p, .nav-link{
+h1,h2,h3,a,span,p, .nav-link{
 	color: #d7f8f7;
 	text-decoration: none;
 }
@@ -84,6 +85,38 @@ ul{
 }
 
 /************************GLOBAL STYLE end***********************/
+
+
+
+/************************MAIN start*****************************/
+main section{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#bio h2{
+	font-family: 'Archivo Black', sans-serif;
+}
+
+#bio-picture-div{
+	flex-direction: row;
+}
+
+#bio-picture{
+	margin-bottom: -25px;
+}
+
+#bio li{
+	padding-bottom: 0.65rem;
+}
+
+#bio .icon{
+	width: 35px;
+	height: 35px;
+}
+/************************MAIN start*****************************/
+
+
 
 /***************************HEADER start*************************/
 header{
@@ -170,6 +203,8 @@ header{
 /*ACCORDION END*/
 /************************HEADER end*****************************/
 
+
+
 /************************FOOTER START***************************/
 footer{
 	background: #5c9398;	
@@ -218,6 +253,8 @@ hr{
 }
 /*****************************FOOTER END*************************/
 
+
+
 /*LARGE lg*/
 @media (min-width: 992px) and (max-width: 1199px){
 	html {	
@@ -228,6 +265,14 @@ hr{
 	width: 20px;
 	height: 20px;
 	}
+
+	/*MAIN start*/
+	#bio .icon{
+	width: 30px;
+	height: 30px;
+	}
+	/*MAIN end*/
+
 	/*HEADER start*/
 	#site-logo{
 		width: 100px;
@@ -237,13 +282,20 @@ hr{
 	height: 100px;
 	}
 	/*HEADER end*/
-}
+	}
 
 /*MEDIUM md*/
 @media (min-width: 768px) and (max-width: 991px) {
 	html {	
 	font-size: 11px;		
-	}	
+	}
+
+	/*MAIN start*/
+	#bio .icon{
+	width: 25px;
+	height: 25px;
+	}
+	/*MAIN end*/	
 
 	/*HEADER start*/
 	#site-logo{
@@ -261,7 +313,7 @@ hr{
 
 @media (min-width:576px) and (max-width: 767px) {
 	html {	
-	font-size: 9px;		
+		font-size: 9px;		
 	}
 
 	/*HEADER start*/
@@ -270,6 +322,33 @@ hr{
 		height: 70px;
 	}
 	/*HEADER end*/
+
+	/*MAIN start*/
+	#bio .icon{
+		width: 25px;
+		height: 25px;
+	}
+
+	#bio-picture-div{
+		flex-direction: column;
+	}
+
+	#bio-picture{
+		content: url("../images/rocio.jpg");
+		width: 50%;
+		margin-inline: auto;
+		padding-top: 2.5rem;
+		padding-bottom: 3rem;
+	}
+
+	#bio h3{
+		text-align: center;
+	}
+
+	#bio ul{
+		margin-inline: auto;
+	}
+	/*MAIN end*/
 
 	/*FOOTER*/
 	footer{
@@ -287,6 +366,33 @@ hr{
 	height: 25px;
 	width: 25px;	
 	}
+
+	/*MAIN start*/
+	#bio .icon{
+	width: 20px;
+	height: 20px;
+	}
+
+	#bio-picture-div{
+		flex-direction: column;
+	}
+
+	#bio-picture{
+		content: url("../images/rocio.jpg");
+		width: 50%;
+		margin-inline: auto;
+		padding-top: 2.5rem;
+		padding-bottom: 3rem;
+	}
+
+	#bio h3{
+		text-align: center;
+	}
+
+	#bio ul{
+		margin-inline: auto;
+	}
+	/*MAIN end*/
 
 	/*HEADER start*/
 	#site-logo{
