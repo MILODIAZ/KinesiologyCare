@@ -1,4 +1,4 @@
-/*GLOBAL STYLE start*/
+/**********************GLOBAL STYLE start**********************/
 html {	
 	font-size: 16px;
 	background: #77aeb1;	
@@ -10,11 +10,16 @@ body{
 
 h1,a,span,p, .nav-link{
 	color: #d7f8f7;
+	text-decoration: none;
 }
 
 a:hover, a:active, a:focus, .nav-link:hover, .nav-link:active, .nav-link:focus{
 	color: #FFD733;
 	text-decoration: none;
+}
+
+ul{
+	list-style: none;
 }
 
 .icon{
@@ -78,52 +83,9 @@ a:hover, a:active, a:focus, .nav-link:hover, .nav-link:active, .nav-link:focus{
 	margin-bottom: 10px;
 }
 
-.accordion-button, .accordion-item{
-	background: rgba(0, 0, 0, 0);
-	color: #d7f8f7;
-	font-size: 16px;
-	border: 0px;
-	font-weight: bold;
-	padding-left: 4px;
-}
+/************************GLOBAL STYLE end***********************/
 
-.accordion-button::after{
-	margin-left: 10px;
-	filter: invert(100%);
-	width: 10px;
-}
-
-.accordion-button:not(.collapsed){
-	color: #d7f8f7;
-	background: rgba(0, 0, 0, 0);
-}
-
-.accordion-button:focus, .accordion-button:hover, .accordion-button:active{
-	border: 0px;
-	box-shadow: none;
-	color: #FFD733;
-}
-
-.accordion-body ul{
-	list-style: none;
-}
-
-.accordion-body li{	
-	padding-top: 3px;
-	padding-bottom: 3px;
-}
-
-.accordion-body span{
-	color: #11787f;
-}
-
-.accordion-body a{
-	text-decoration: none;
-}
-
-/*GLOBAL STYLE end*/
-
-/*HEADER start*/
+/***************************HEADER start*************************/
 header{
 	background: #5c9398;	
 }
@@ -165,9 +127,96 @@ header{
 	color: #5c9398;
 	font-weight: bold;
 }
-/*HEADER end*/
 
+/*ACCORDION*/
+.accordion-button, .accordion-item{
+	background: rgba(0, 0, 0, 0);
+	color: #d7f8f7;
+	font-size: 16px;
+	border: 0px;
+	font-weight: bold;
+	padding-left: 4px;
+}
 
+.accordion-button::after{
+	margin-left: 10px;
+	filter: invert(100%);
+	width: 10px;
+}
+
+.accordion-button:not(.collapsed){
+	color: #d7f8f7;
+	background: rgba(0, 0, 0, 0);
+}
+
+.accordion-button:focus, .accordion-button:hover, .accordion-button:active{
+	border: 0px;
+	box-shadow: none;
+	color: #FFD733;
+}
+
+.accordion-body li{	
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.accordion-body span{
+	color: #11787f;
+}
+
+.accordion-body a{
+	text-decoration: none;
+}
+/*ACCORDION END*/
+/************************HEADER end*****************************/
+
+/************************FOOTER START***************************/
+footer{
+	background: #5c9398;	
+}
+
+footer .footer-section{
+	min-height: 350px;	
+	max-height: 400px;
+	height: 23vw;
+}
+
+.footer-section span{	
+	margin-bottom: 5px;	
+}
+
+.footer-section ul{
+	padding-left: 0px;
+}
+
+.footer-section li{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#doctoralia-icon{
+	margin-left: 10px;
+}
+
+iframe{
+	height: 50%;
+	width: 70%;
+	margin-top: 15px;
+}
+
+hr{
+	border-top: 1px solid white;
+	width: 70%;
+	margin-top: 70px;
+	margin-bottom: 0px;
+}
+
+#copyright{
+	text-align: center;	
+	background: #000000;
+	line-height: 50px;
+}
+/*****************************FOOTER END*************************/
 
 /*LARGE lg*/
 @media (min-width: 992px) and (max-width: 1199px){
@@ -202,6 +251,12 @@ header{
 		height: 100px;
 	}
 	/*HEADER end*/
+
+	/*FOOTER*/
+	footer{
+		font-size: 14px;
+	}
+	/*FOOTER END*/
 }
 
 @media (min-width:576px) and (max-width: 767px) {
@@ -215,6 +270,12 @@ header{
 		height: 70px;
 	}
 	/*HEADER end*/
+
+	/*FOOTER*/
+	footer{
+		font-size: 14px;
+	}
+	/*FOOTER END*/
 }
 
 @media (max-width: 575px){
@@ -233,6 +294,12 @@ header{
 		height: 60px;
 	}
 	/*HEADER end*/
+
+	/*FOOTER*/
+	footer{
+		font-size: 14px;
+	}
+	/*FOOTER END*/
 }
 
 
