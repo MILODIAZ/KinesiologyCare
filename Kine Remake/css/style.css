@@ -94,6 +94,7 @@ main section{
 	padding-bottom: 25px;
 }
 
+/*BIO start*/
 #bio h2{
 	font-family: 'Archivo Black', sans-serif;
 }
@@ -118,9 +119,11 @@ main section{
 	width: 35px;
 	height: 35px;
 }
+/*BIO end*/
 
+/*HOME MIDDLE start*/
 #home-middle-section{
-	background: rgba(215, 217, 202, 0.5);   
+	background: rgba(215, 217, 202, 0.4);   
 }
 
 #home-middle-section h2{
@@ -154,7 +157,45 @@ main section{
 	color: #212529;
 	font-size: 0.9rem;
 }
-/************************MAIN start*****************************/
+/*HOME MIDDLE end*/
+
+/*PATOLOGIAS SECCION start*/
+.card{
+	border-radius: 1.25rem;
+	background: rgba(215, 217, 202, 0.4);
+	transition: all 0.3s;
+}
+
+.card h3{
+	transition: all 0.3s;
+}
+
+.card:hover, .card:focus, .card:active{
+	background: rgba(215, 217, 202, 0.6);
+}
+
+.card:hover h3, .card:focus h3, .card:active h3{
+	color: #FFD733; 
+}
+
+.card img{
+	width: 90%;
+	padding-right: 0.75rem;
+}
+
+.card h3{
+	color: #11787f;
+	font-size: 1.1rem;
+}
+
+.card p{
+	color: #212529;
+	font-size: 0.8;
+}
+/*PATOLOGIAS SECCION end*/
+
+
+/************************MAIN end*****************************/
 
 
 
