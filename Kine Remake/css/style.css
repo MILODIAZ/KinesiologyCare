@@ -118,6 +118,42 @@ main section{
 	width: 35px;
 	height: 35px;
 }
+
+#home-middle-section{
+	background: rgba(215, 217, 202, 0.5);   
+}
+
+#home-middle-section h2{
+	color: #11787f;
+	font-weight: bold;
+}
+
+#home-middle-section li{
+	padding: 0.75rem 1.25rem 0.75rem 0rem;
+}
+
+.carousel, .carousel-inner, .carousel-img{
+	width: 25vw;
+	height: 20vw;
+	border-radius: 10px;
+}
+
+.carousel-caption{
+	background: rgba(215, 217, 202, 0.9);
+	padding: 0px;
+	border-radius: 10px;
+}
+
+.carousel-caption h3{
+	color: #5c9398;
+	font-size: 1.1rem;
+	margin-bottom: 0px;
+}
+
+.carousel-caption p{
+	color: #212529;
+	font-size: 0.9rem;
+}
 /************************MAIN start*****************************/
 
 
@@ -266,18 +302,18 @@ hr{
 /*LARGE lg*/
 @media (min-width: 992px) and (max-width: 1199px){
 	html {	
-	font-size: 14px;		
+		font-size: 14px;		
 	}
 
 	.icon{	
-	width: 20px;
-	height: 20px;
+		width: 20px;
+		height: 20px;
 	}
 
 	/*MAIN start*/
 	#bio .icon{
-	width: 30px;
-	height: 30px;
+		width: 30px;
+		height: 30px;
 	}
 	/*MAIN end*/
 
@@ -287,21 +323,35 @@ hr{
 		height: 100px;
 	}
 	#navigation-section{
-	height: 100px;
+		height: 100px;
 	}
 	/*HEADER end*/
-	}
+}
 
 /*MEDIUM md*/
 @media (min-width: 768px) and (max-width: 991px) {
 	html {	
-	font-size: 14px;		
+		font-size: 14px;		
 	}
 
 	/*MAIN start*/
 	#bio .icon{
-	width: 25px;
-	height: 25px;
+		width: 25px;
+		height: 25px;
+	}
+
+	#home-middle-flex-div{
+		flex-direction:column-reverse;		
+	}
+
+	.carousel{
+		margin: auto;
+	}
+
+	.carousel, .carousel-inner, .carousel-img{
+		width: 50vw;
+		height: 40vw;
+		border-radius: 10px;				
 	}
 	/*MAIN end*/	
 
@@ -333,7 +383,7 @@ hr{
 
 	/*MAIN start*/
 	#bio h3{
-	padding-top: 1rem;
+		padding-top: 1rem;
 	}
 
 	#bio .icon{
@@ -362,6 +412,24 @@ hr{
 		margin: auto;
 		padding-left: 0px;
 	}
+
+	#home-middle-flex-div{
+		flex-direction:column-reverse;
+	}
+
+	.carousel{
+		margin: auto;
+	}
+
+	.carousel, .carousel-inner, .carousel-img{
+		width: 50vw;
+		height: 40vw;
+		border-radius: 10px;				
+	}
+
+	.carousel h3{
+		padding-bottom: 0.8rem;
+	}
 	/*MAIN end*/
 
 	/*FOOTER*/
@@ -373,22 +441,22 @@ hr{
 
 @media (max-width: 575px){
 	html {	
-	font-size: 16px;		
+		font-size: 16px;		
 	}
 
 	#sidebar-button-icon{
-	height: 25px;
-	width: 25px;	
+		height: 25px;
+		width: 25px;	
 	}
 
 	/*MAIN start*/
 	#bio h3{
-	padding-top: 1rem;
+		padding-top: 1rem;
 	}
 
 	#bio .icon{
-	width: 20px;
-	height: 20px;
+		width: 20px;
+		height: 20px;
 	}
 
 	#bio-picture-div{
@@ -411,6 +479,24 @@ hr{
 	#bio ul{
 		margin: auto;
 		padding-left: 0px;
+	}
+
+	#home-middle-flex-div{
+		flex-direction:column-reverse;
+	}
+
+	.carousel{
+		margin: auto;
+	}
+
+	.carousel, .carousel-inner, .carousel-img{
+		width: 50vw;
+		height: 40vw;
+		border-radius: 10px;				
+	}
+
+	.carousel h3{
+		padding-bottom: 0.8rem;
 	}
 	/*MAIN end*/
 
