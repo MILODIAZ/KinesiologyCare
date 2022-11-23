@@ -192,6 +192,10 @@ header{
 	color: #FFD733;
 }
 
+.accordion-body ul{
+	padding-left: 0rem;
+}
+
 .accordion-body li{	
 	padding-top: 3px;
 	padding-bottom: 3px;
