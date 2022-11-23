@@ -98,6 +98,10 @@ main section{
 	font-family: 'Archivo Black', sans-serif;
 }
 
+#bio h3{
+	padding-top: 3rem;
+}
+
 #bio-picture-div{
 	flex-direction: row;
 }
@@ -143,7 +147,7 @@ header{
 
 .navbar-nav .nav-link{
 	display: inline-block;
-	padding-inline: 7px;
+	padding: 0px 7px 0px 7px;
 	font-size: 0.8em;
 	font-weight: bold;			
 }
@@ -324,6 +328,10 @@ hr{
 	/*HEADER end*/
 
 	/*MAIN start*/
+	#bio h3{
+	padding-top: 1rem;
+	}
+
 	#bio .icon{
 		width: 25px;
 		height: 25px;
@@ -336,7 +344,7 @@ hr{
 	#bio-picture{
 		content: url("../images/rocio.jpg");
 		width: 50%;
-		margin-inline: auto;
+		margin: 0px auto 0px auto;
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 		border-radius: 30px;
@@ -347,7 +355,8 @@ hr{
 	}
 
 	#bio ul{
-		margin-inline: auto;
+		margin: auto;
+		padding-left: 0px;
 	}
 	/*MAIN end*/
 
@@ -369,6 +378,10 @@ hr{
 	}
 
 	/*MAIN start*/
+	#bio h3{
+	padding-top: 1rem;
+	}
+
 	#bio .icon{
 	width: 20px;
 	height: 20px;
@@ -381,7 +394,7 @@ hr{
 	#bio-picture{
 		content: url("../images/rocio.jpg");
 		width: 50%;
-		margin-inline: auto;
+		margin: 0px auto 0px auto;
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 		border-radius: 30px;
@@ -392,7 +405,8 @@ hr{
 	}
 
 	#bio ul{
-		margin-inline: auto;
+		margin: auto;
+		padding-left: 0px;
 	}
 	/*MAIN end*/
 
